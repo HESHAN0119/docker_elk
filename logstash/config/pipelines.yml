@@ -1,5 +1,5 @@
-# - pipeline.id: clickhouse-pipeline
-#   path.config: "/usr/share/logstash/pipeline/clickhouse.conf"
+- pipeline.id: clickhouse-pipeline
+  path.config: "/usr/share/logstash/pipeline/clickhouse.conf"
 
 - pipeline.id: orders
   path.config: "/usr/share/logstash/pipeline/orders.conf"
