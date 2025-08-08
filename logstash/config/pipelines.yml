@@ -6,3 +6,6 @@
 
 - pipeline.id: games
   path.config: "/usr/share/logstash/pipeline/games.conf"
+
+- pipeline.id: users
+  path.config: "/usr/share/logstash/pipeline/users.conf"
